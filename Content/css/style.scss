@@ -1,0 +1,184 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,body,.box{
+  width:100%;
+  height: 100%;
+  font-size:16px;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  width:100%;
+  height: 44px;
+  line-height: 44px;
+  span{
+   padding: 10px 10px;
+  }
+  .active{
+      border-bottom:2px solid #0000ff;
+  }
+}
+.main{
+  width:100%;
+  flex:1;
+  overflow-y: scroll;
+}
+.footer{
+  width:100%;
+  height: 44px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header{
+  align-items:center;
+  position:relative;
+  p{
+    flex:1;
+    text-align: center;
+  }
+  i{
+    position: absolute;
+    right: 15px;
+    top:0px;
+  }
+}
+.footer>ul{
+  width:100%;
+  display: flex;
+  li{
+    flex:1;
+    text-align: center;
+  }
+}
+
+.swiper-container{
+  width:100%;
+}
+.swiper-wrapper .swiper-slide{
+  width:100%;
+}
+.swiper-slide img{
+  width:100%;
+  height: auto;
+}
+.list{
+  width:100%;
+  ul{
+    display: flex;
+    li{
+      flex:1;
+
+      display:flex;
+      flex-direction:column;
+      justify-content: center;
+      align-items: center;
+      span{
+        width:60px;
+        height: 60px;
+        text-align: center;
+        line-height: 60px;
+        border-radius:42%;
+        i{
+          color:#fff;
+          font-size:32px;
+        }
+      }
+    }
+  }
+}
+.subscribe{
+  width:100%;
+  margin-top:10px;
+  img{
+    width:100%;
+  }
+}
+.owner{
+  width:100%;
+  h3{
+    width:100%;
+    height: 50px;
+    border-bottom:1px solid #eee;
+    text-indent: 20px;
+    line-height: 50px;
+    font-weight: 500;
+  }
+  ul{
+    display: flex;
+    flex-wrap:wrap;
+    li{
+      width:25%;
+      height: 80px;
+      border-right:1px solid #eee;
+      border-bottom:1px solid #eee;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      i{
+        color:red;
+        font-size:32px;
+      }
+    }
+  }
+}
+.limit{
+  h3{
+    width:100%;
+    height: 50px;
+    line-height: 50px;
+    text-indent: 20px;
+    font-weight: 500;
+  }
+  width:100%;
+  .commodity{
+    display: flex;
+    div{
+      width:100%;
+      overflow: hidden;
+      display: flex;
+    }
+    dl{
+      width:33.3%;
+
+      dt{
+        img{
+          width:120px;
+          height: 60px;
+        }
+      }
+      p{
+        color:red;
+        small{
+          color:#ccc;
+          text-decoration: line-through;
+          margin-left:30px;
+        }
+      }
+    }
+
+  }
+
+}
